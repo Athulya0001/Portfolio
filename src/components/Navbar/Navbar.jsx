@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-import { FaBars, FaTimes, FaMoon, FaSun, FaUserCircle } from "react-icons/fa";
+import React, { useState, useContext } from "react";
+import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
+import { ThemeContext } from "../../Context/ThemeContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [darkMode, setDarkMode] = useState(true);
 
+  const { darkMode, setDarkMode } = useContext(ThemeContext);
   const toggleMenu = () => setIsOpen(!isOpen);
-  const toggleDarkMode = () => setDarkMode(!darkMode);
 
   return (
-    <nav className={`${darkMode ? "bg-gray-800" : "bg-gray-100"} p-4 ${darkMode ? "text-white" : "text-black"} w-full`}>
+    <nav className={`${darkMode ? "bg-gray-900" : "bg-gray-100"} p-4 ${darkMode ? "text-white" : "text-black"} w-full`}>
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
           Athulya S
@@ -22,9 +22,9 @@ const Navbar = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <button onClick={toggleDarkMode} className="text-xl focus:outline-none">
-            {darkMode ? <FaSun /> : <FaMoon />}
-          </button>
+        <button onClick={() => setDarkMode(!darkMode)} className="text-xl">
+          {darkMode ? <FaSun /> : <FaMoon />}
+        </button>
           
           <button onClick={toggleMenu} className="md:hidden text-xl focus:outline-none">
             {isOpen ? <FaTimes /> : <FaBars />}
