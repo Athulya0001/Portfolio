@@ -9,13 +9,13 @@ const Home = () => {
     <div
       className={`w-full mx-auto py-20 px-6 md:flex md:items-center md:justify-between ${
         darkMode ? "bg-gray-800 text-white" : "bg-white text-black"
-      }`}
+      }`} id='home'
     >
       <div className="md:w-1/2 space-y-6">
         <h1 className="text-4xl md:text-6xl font-bold">
           Welcome to my <span className="text-pink-500">Portfolio!</span>
         </h1>
-        <p className={`${darkMode ? "text-gray-300" : "text-gray-600"}`}>
+        <p className={`${darkMode ? "text-gray-300" : "text-gray-600"} text-justify`}>
           I am a MERN Stack Developer with experience in building dynamic and
           responsive web applications. I am skilled in React.js, Node.js,
           Express.js, MongoDB, and Tailwind CSS. I also have experience with Git
@@ -42,8 +42,7 @@ const Home = () => {
             My Resume
           </a>
         </div>
-      </div>
-      <div className="flex space-x-4 mt-6 md:mt-0">
+        <div className="flex space-x-4 mt-6 md:mt-0">
         <a
           href="https://github.com/Athulya0001"
           target="_blank"
@@ -60,6 +59,7 @@ const Home = () => {
         >
           <FaLinkedin />
         </a>
+      </div>
       </div>
     </div>
   );
