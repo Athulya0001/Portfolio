@@ -5,6 +5,7 @@ import About from './components/About/About'
 import Projects from './components/Projects/Projects'
 import Navbar from './components/Navbar/Navbar'
 import { ThemeContext } from './Context/ThemeContext'
+import Contact from './components/Contact/Contact'
 
 const App = () => {
   const { darkMode } = useContext(ThemeContext)
@@ -15,6 +16,7 @@ const App = () => {
         <Home />
         <About />
         <Projects/>
+        <Contact/>
       </div>
     </div>
   )
