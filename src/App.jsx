@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <div className={`w-full ${darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-gray-900"}`}>
+      <div className={`w-full md:px-16 ${darkMode ? "bg-gray-800 text-gray-100" : "bg-white text-gray-900"}`}>
         <Home />
         <About />
         <Projects/>

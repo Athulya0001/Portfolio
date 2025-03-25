@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className={`py-16 px-6 md:px-12 lg:px-20 transition-all ${darkMode ? "text-gray-100" : "text-gray-900"
+      className={`py-16 px-6 md:px-0 transition-all ${darkMode ? "text-gray-100" : "text-gray-900"
         } flex flex-col md:flex-row justify-center gap-x-6 `}
     >
       <div className="flex justify-center items-center">
@@ -20,12 +20,14 @@ const About = () => {
       </div>
 
       <div className="md:w-1/2 space-y-6 text-right">
-        <button
-          className={`${darkMode ? "bg-blue-400 text-blue-950" : "bg-gray-400 text-gray-800"
-            } shadow-md font-semibold rounded-md px-3 py-1`}
+        <span
+          className={`uppercase font-semibold px-3 py-1 rounded-md transition-colors ${darkMode
+              ? "text-blue-300 bg-blue-900"
+              : "text-blue-500 bg-blue-100"
+            }`}
         >
-          ABOUT ME
-        </button>
+          About Me
+        </span>
 
         <h1 className="text-4xl md:text-5xl font-bold text-center md:text-right mb-6">
           Hello! My Name is{" "}

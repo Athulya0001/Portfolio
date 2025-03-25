@@ -9,7 +9,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className={`fixed top-0 left-0 ${darkMode ? "bg-gray-900" : "bg-gray-100"} p-4 ${darkMode ? "text-white" : "text-black"} w-full`}>
+    <nav className={`fixed z-50 top-0 left-0 ${darkMode ? "bg-gray-900" : "bg-gray-100"} p-4 ${darkMode ? "text-white" : "text-black"} w-full`}>
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
           <a href="/">Athulya S</a>

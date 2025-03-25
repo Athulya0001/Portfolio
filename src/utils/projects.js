@@ -2,7 +2,7 @@ export const projects = [
     {
       title: "Shoppy",
       description: "A responsive marketing web application using HTML and JAVASCRIPT with simple functionalities for a marketing application.",
-      image: "",
+      image: "./calculator.jpeg",
       tags: ["Javascript", " HTML", "Tailwind CSS"],
       source: "https://shoppy-umber-one.vercel.app/",
       visit: "https://shoppy-umber-one.vercel.app/",
@@ -11,7 +11,7 @@ export const projects = [
     {
         title: "OLX-Clone-App",
         description: "A fully functional clone Application of OLX using React.js, Express.js, MongoDB, Redux etc. with functionalities such as Authentication and Authorization, Product sellling, buying, wishlist, etc.",
-        image: "",
+        image: "./qoutes.jpeg",
         tags: ["React.js", "Express.js", "MongoDB","Tailwind CSS", "Redux"],
         source: "https://olx-clone-frontend-l96b.onrender.com",
         visit: "https://olx-clone-frontend-l96b.onrender.com",
@@ -20,7 +20,7 @@ export const projects = [
       {
         title: "QouteSphere",
         description: "A simple random quotes generating application using HTML, Javascript and CSS",
-        image: "",
+        image: "./olx.jpeg",
         tags: ["HTML", "Javascript", "CSS"],
         source: "https://qoutes-generator-two.vercel.app",
         visit: "https://qoutes-generator-two.vercel.app",
@@ -29,7 +29,7 @@ export const projects = [
       {
         title: "Calculator",
         description: "A fully functional calculator build using HTML, CSS, Javascript",
-        image: "",
+        image: "./todo.jpeg",
         tags: ["HTML", "CSS", "Javascript"],
         source: "https://calculator-taupe-eta.vercel.app",
         visit: "https://calculator-taupe-eta.vercel.app",
@@ -38,7 +38,7 @@ export const projects = [
       {
         title: "To-Do List",
         description: "A simple and functional To-do application created with HTML, CSS, Javascript",
-        image: "",
+        image: "./shoppy.jpeg",
         tags: ["HTML", "CSS", "Javascript"],
         source: "https://to-do-list-brown-zeta.vercel.app",
         visit: "https://to-do-list-brown-zeta.vercel.app",
