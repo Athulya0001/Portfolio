@@ -5,12 +5,20 @@ import { FaPaperPlane } from "react-icons/fa";
 import { ThemeContext } from "../../Context/ThemeContext";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("https://formspree.io/f/mjkyowqv");
+  const [state, handleSubmit] = useForm("mjkyowqv");
   const { darkMode } = useContext(ThemeContext);
 
   return (
     <section id="contact" className="py-16 px-6 md:px-12 lg:px-20 transition-colors">
       <div className="text-center">
+        <span
+                  className={`uppercase font-semibold px-3 py-1 rounded-md transition-colors ${darkMode
+                      ? "text-blue-300 bg-blue-900"
+                      : "text-blue-500 bg-blue-100"
+                    }`}
+                >
+                  Contact Me
+                </span>
         <h2 className="text-3xl md:text-4xl font-bold">Let's Connect</h2>
         <p className="mt-2 text-gray-600 dark:text-gray-300">
           Have a question or want to work together? Drop a message!
