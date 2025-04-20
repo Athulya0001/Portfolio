@@ -1,4 +1,13 @@
 export const projects = [
+  {
+    title: "OLX-Clone-App",
+    description: "A fully functional clone Application of OLX using React.js, Express.js, MongoDB, Redux etc. with functionalities such as Authentication and Authorization, Product sellling, buying, wishlist, etc.",
+    image: "./qoutes.jpeg",
+    tags: ["React.js", "Express.js", "MongoDB","Tailwind CSS", "Redux"],
+    source: "https://olx-clone-frontend-l96b.onrender.com",
+    visit: "https://olx-clone-frontend-l96b.onrender.com",
+    id: "olxCloneApplication",
+  },
     {
       title: "Shoppy",
       description: "A responsive marketing web application using HTML and JAVASCRIPT with simple functionalities for a marketing application.",
@@ -8,15 +17,6 @@ export const projects = [
       visit: "https://shoppy-umber-one.vercel.app/",
       id: "marketingShoppyHub",
     },
-    {
-        title: "OLX-Clone-App",
-        description: "A fully functional clone Application of OLX using React.js, Express.js, MongoDB, Redux etc. with functionalities such as Authentication and Authorization, Product sellling, buying, wishlist, etc.",
-        image: "./qoutes.jpeg",
-        tags: ["React.js", "Express.js", "MongoDB","Tailwind CSS", "Redux"],
-        source: "https://olx-clone-frontend-l96b.onrender.com",
-        visit: "https://olx-clone-frontend-l96b.onrender.com",
-        id: "olxCloneApplication",
-      },
       {
         title: "QouteSphere",
         description: "A simple random quotes generating application using HTML, Javascript and CSS",
@@ -45,3 +45,4 @@ export const projects = [
         id: "todoApp",
       },
   ];
+

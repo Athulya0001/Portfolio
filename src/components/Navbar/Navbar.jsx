@@ -16,7 +16,7 @@ const Navbar = () => {
         </h1>
 
         <div className="hidden md:flex space-x-6">
-          {['Home', 'About', 'Experience', 'Projects', 'Contact'].map(link => (
+          {['Home', 'About', 'Experience','Education', 'Projects', 'Contact'].map(link => (
             <a key={link} href={`#${link.toLowerCase()}`} className="hover:text-gray-400">{link}</a>
           ))}
         </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden mt-4 flex flex-col space-y-4 text-center">
-          {['Home', 'About', 'Experience', 'Projects', 'Contact'].map(link => (
+          {['Home', 'About', 'Experience','Education', 'Projects', 'Contact'].map(link => (
             <a key={link} href={`#${link.toLowerCase()}`} className="hover:text-gray-400" onClick={toggleMenu}>{link}</a>
           ))}
         </div>
