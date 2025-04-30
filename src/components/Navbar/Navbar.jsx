@@ -9,21 +9,21 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className={`fixed z-50 top-0 left-0 ${darkMode ? "bg-gray-900" : "bg-gray-100"} p-4 ${darkMode ? "text-white" : "text-black"} w-full`}>
+    <nav className={`fixed z-50 top-0 left-0 ${!darkMode ? "bg-gray-900" : "bg-gray-100"} p-4 ${!darkMode ? "text-white" : "text-black"} w-full`}>
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
           <a href="/">Athulya S</a>
         </h1>
 
         <div className="hidden md:flex space-x-6">
-          {['Home', 'About', 'Experience','Education', 'Projects', 'Contact'].map(link => (
+          {['About', 'Skills','Experience','Education', 'Projects', 'Contact'].map(link => (
             <a key={link} href={`#${link.toLowerCase()}`} className="hover:text-gray-400">{link}</a>
           ))}
         </div>
 
         <div className="flex items-center space-x-4">
           <button onClick={() => setDarkMode(!darkMode)} className="text-xl">
-            {darkMode ? <FaSun /> : <FaMoon />}
+            {!darkMode ? <FaSun /> : <FaMoon />}
           </button>
 
           <button onClick={toggleMenu} className="md:hidden text-xl focus:outline-none">
