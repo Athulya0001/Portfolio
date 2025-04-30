@@ -72,7 +72,7 @@ const About = () => {
             Hire Me
           </a>
           <a
-            href="#"
+            href="https://drive.google.com/file/d/1DoKbRmq5IbEmVDWT83Ga91hrFYaFa8ET/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
             className={`px-6 py-3 rounded-full ${
