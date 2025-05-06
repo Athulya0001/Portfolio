@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../Context/ThemeContext";
 import DevImage from "../../assets/mern-stack-inner.png";
+import MyImage from "../../assets/myimage.png";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -15,7 +16,7 @@ const About = () => {
     >
       <div className="flex justify-center md:w-1/2">
         <img
-          src={DevImage}
+          src={MyImage}
           alt="Developer"
           className="w-3/4 md:w-2/3 object-contain"
         />
