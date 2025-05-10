@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeContext } from "../../Context/ThemeContext";
 import DevImage from "../../assets/mern-stack-inner.png";
-import MyImage from "../../assets/myimage.png";
+import MyImage from "../../assets/profile.png";
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -15,11 +15,30 @@ const About = () => {
       } flex flex-col md:flex-row items-center gap-10`}
     >
       <div className="flex justify-center md:w-1/2">
-        <img
-          src={MyImage}
-          alt="Developer"
-          className="w-3/4 md:w-2/3 object-contain"
-        />
+        <motion.div
+          initial={{ rotateY: 0 }}
+          animate={{ rotateY: 360 }}
+          transition={{ duration: 2, ease: "easeInOut" }}
+        >
+          <motion.div
+            className={`p-1 md:p-1.5 rounded-full bg-gradient-to-tr ${darkMode
+              ? "from-blue-500 via-blue-300 to-blue-500"
+              : "from-blue-300 via-blue-100 to-blue-300"} shadow-2xl`}
+            animate={{ y: [0, -20, 0, 20, 0] }}
+            transition={{
+              repeat: Infinity,
+              duration: 4,
+              ease: "easeInOut",
+              delay: 2,
+            }}
+          >
+            <img
+              src={MyImage}
+              alt="Developer"
+              className="w-56 h-56 md:w-64 md:h-64 object-cover rounded-full bg-pink-500"
+            />
+          </motion.div>
+        </motion.div>
       </div>
 
       <div className="md:w-1/2 space-y-6">
