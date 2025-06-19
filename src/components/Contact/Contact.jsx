@@ -16,7 +16,7 @@ const Contact = () => {
     >
       <div className="text-center mb-12">
         <span
-          className={`uppercase text-lg font-bold px-4 py-2 mb-15 rounded-md ${
+          className={`uppercase text-lg font-bold px-4 py-2 mb-18 rounded-md ${
             !darkMode
               ? "text-blue-300 bg-blue-900"
               : "text-blue-500 bg-blue-100"
@@ -25,7 +25,7 @@ const Contact = () => {
         >
           Contact Me
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold">Let's Connect</h2>
+        <h2 className="text-3xl md:text-4xl mt-1 font-bold">Let's Connect</h2>
         <p className="mt-2 text-gray-600 dark:text-gray-300">
           Have a question or want to work together? Drop a message!
         </p>
