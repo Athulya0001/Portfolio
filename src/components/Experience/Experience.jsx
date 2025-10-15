@@ -6,11 +6,17 @@ import { ThemeContext } from "../../Context/ThemeContext";
 const steps = [
   {
     title: "MERN Stack Developer Intern (On-site)",
-    duration: "Oct 2024 - Present",
+    duration: "Oct 2024 - April 2025",
     companyName: "Synnefo Solutions",
     description:
       "Worked as a MERN stack developer Intern, using React.js, MongoDB, Node.js and Express.js. Also used Tailwind CSS, Bootstrap etc for css styling, worked with Redux Toolkit, also gained experience in Git and Github version control.",
   },
+  {
+    title: "Technical Support Engineer",
+    duration: "Oct 2025 - Present",
+    companyName: "Mozilor Technology",
+    description: "Working as a Technical Support Engineer, helping to troubleshoot and resolve technical issues. As a recent starter, I focus on identifying bugs, assisting users, and learning best practices in web technologies and technical support."
+  }
 ];
 
 const Experience = () => {
