@@ -73,10 +73,7 @@ const About = () => {
         </h1>
 
         <p className="text-lg leading-relaxed text-justify">
-          I’m a MERN Stack Developer focused on building responsive and
-          efficient web applications. With hands-on experience in React.js,
-          Node.js, and MongoDB, I enjoy crafting clean code and user-friendly
-          interfaces.
+          I’m working as a Technical Support Engineer, where I troubleshoot and resolve technical issues using HTML, CSS, and JavaScript, while supporting users and ensuring smooth application performance. Alongside this, I have hands-on experience as a MERN Stack Developer, building responsive and efficient web applications with React.js, Node.js, and MongoDB.
         </p>
 
         <p className="text-lg leading-relaxed text-justify">
