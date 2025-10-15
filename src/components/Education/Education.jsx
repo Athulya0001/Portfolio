@@ -20,9 +20,9 @@ const educationData = [
       "Graduated in ECE with an interest in software and web technologies. Contributed to academic projects and participated in technical events that sparked a shift toward web development.",
   },
   {
-    degree: "Higher Secondary Education (Biology Science)",
+    degree: "Higher Secondary Education",
     duration: "2018 - 2020",
-    institution: "XYZ Higher Secondary School",
+    institution: "Govt. Girls Higher Secondary School, Cherthala",
     description:
       "Studied core science subjects including Biology, Physics, and Chemistry. Developed curiosity and adaptability that later helped in transitioning to tech.",
   },
