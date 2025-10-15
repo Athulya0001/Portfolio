@@ -4,13 +4,13 @@ import { FaGraduationCap } from "react-icons/fa";
 import { ThemeContext } from "../../Context/ThemeContext";
 
 const educationData = [
-  {
-    degree: "Web Development Course (MERN Stack)",
-    duration: "2024 (6 Months)",
-    institution: "Online Certification Program",
-    description:
-      "Completed a 6-month intensive web development course focused on the MERN stack (MongoDB, Express.js, React.js, Node.js). Gained hands-on experience in building full-stack applications, version control with Git & GitHub, and modern UI with Tailwind CSS.",
-  },
+  // {
+  //   degree: "Web Development Course (MERN Stack)",
+  //   duration: "2024 (6 Months)",
+  //   institution: "Training Institute",
+  //   description:
+  //     "Completed a 6-month intensive web development course focused on the MERN stack (MongoDB, Express.js, React.js, Node.js). Gained hands-on experience in building full-stack applications, version control with Git & GitHub, and modern UI with Tailwind CSS.",
+  // },
   {
     degree:
       "Bachelor of Technology in Electronics and Communication Engineering",
